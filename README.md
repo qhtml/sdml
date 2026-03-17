@@ -9,7 +9,7 @@
 - SDML generally speaking uses qhtml-style syntax to define server-side operations in a declarative way.
 
 # example server.sdml :
-
+```
 server { 
  listen { 
    ip {  127.0.0.1 }
@@ -37,7 +37,7 @@ server {
 
  }
 }
-
+```
 sdml can be written in any language as long as that language is sufficiently capable of being able to sanitize data securely and can generate runtime 
 instruction based on abstract sdml language (which there is no interpreter for currently) and the language is capable of securely receiving HTTP GET, 
 POST, OTHER requests, listening on interfaces/ports, and deducing URLS based on the sdml provided in a single file possibly for multiple interfaces 
