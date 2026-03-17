@@ -1,0 +1,11 @@
+{
+  "name": "sdml-framework",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "sdml": "bin/sdml.js"
+  },
+  "scripts": {
+    "test": "node --test modules/sdml-parser/test/parser.test.js modules/sdml-runtime/test/runtime.test.js test/cli.test.js"
+  }
+}

@@ -1,0 +1,9 @@
+../*
+.*
+!.gitignore
+
+WHEEL.*
+README-WHEEL*
+
+modules/**/WHEEL.*
+modules/**/README-WHEEL*
