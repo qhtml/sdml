@@ -69,3 +69,9 @@ node bin/sdml.js run --file ./server.sdml --port 6221 --threads 2
 Single-shape pure JSON response only:
 - `result`: rendered response string
 - `properties`: final request-scope property values
+
+
+# Planned features
+- ability to define qhtml elements server-side
+- ability to load elements via qhtml and access exported functions via REST API
+- security measures - identity verification - session validation - dual RSA encryption key system with AES 
